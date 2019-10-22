@@ -1,0 +1,6 @@
+schedule
+redis
+selenium
+loguru
+faker
+pyyaml

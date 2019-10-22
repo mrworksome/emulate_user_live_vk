@@ -1,0 +1,8 @@
+redis:
+  image: 'bitnami/redis:latest'
+#  command: redis-server --requirepass k8working
+  ports:
+    - '6379:6379'
+  environment:
+    - REDIS_PASSWORD=k8working
+
