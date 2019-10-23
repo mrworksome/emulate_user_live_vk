@@ -122,7 +122,7 @@ class BaseLoginPage(object):
         """ Typing value with human like """
         # todo: get value is list and string
         for character in value:
-            element.send_keys(character, Keys.ARROW_DOWN)
+            element.send_keys(character)
             sleep(random.uniform(0.2, 0.4))
         sleep(random.uniform(0.5, 1.1))
 
